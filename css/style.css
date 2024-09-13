@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+:root {
+  --black: #282521;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.rock {
+  font-family: "Rock Salt";
+  font-weight: 500;
+}
+
+.rock2 {
+  font-family: "Rock Salt";
+  font-weight: 600;
+}
+
+/*! Start Group One */
+.g1 {
+  height: 100vh;
+  background-image: url("../imgs/g1/Background.png");
+  background-size: cover;
+  & h2.rotate-3 {
+    color: var(--black);
+  }
+  & button {
+    background-color: var(--black);
+  }
+}
+
+/*! End Group One */
+
+/*! Start Group Two */
+.g2 {
+  height: 100vh;
+  background-color: #fffefa;
+
+  & button {
+    background-color: var(--black);
+  }
+}
+
+.g3 {
+  height: 100vh;
+  background-image: url("../imgs/g3/Background.png");
+  background-size: cover;
+
+  & button {
+    background-color: var(--black);
+  }
+}
+/*! End Group Two */
